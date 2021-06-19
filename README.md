@@ -11,10 +11,13 @@ This is basic test framework which aims at testing websocket apis.
       includes tests for instrument ticker(basic tests)  
 2. config file  
    contains the configuration and data required for running the tests  
-      
+3. requirements.txt
+   install the libraries mentioned in this file using `pip`.      
 ### Execution
-To run the test scripts with help of command line:  
+To run the test scripts with help of command line(Linux machine):  
 `pytest`  
+
+Note: PyCharm was used to write this test-scripts. Just setup a pytest run configuration to run the scripts in PyCharm.
 
 ### Tech Stack 
 > *python 3.8*  
@@ -30,7 +33,8 @@ json library is the library that is utilised to parse the received data and veri
 ### Shortcoming  
 The script currently doesn't address the following points -   
 1. parameterized data for tests 
-2. parallel execution
+2. exception/error handling
+3. parallel execution
 
 The above listed points can be explored more when more tests are added and the test suite inflates.  
 
